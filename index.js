@@ -1,7 +1,7 @@
 require('dotenv').config(); // Load environment variables
-import express from 'express';
-import { urlencoded } from 'body-parser';
-import Africastalking from 'africastalking';
+const express = require('express');
+const bodyParser = require('body-parser');
+const Africastalking = require('africastalking');
 
 //!!Rerun with new changes 
 //require('dotenv').config(); // Load environment variables
